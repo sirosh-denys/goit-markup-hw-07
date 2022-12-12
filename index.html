@@ -23,34 +23,34 @@
   <body>
     <!--HEADER-->
     <header class="header">
-      <div class="header-container container">
-        <nav class="navigation">
-          <a class="logo link" href="./"><span class="logo-blue-fragment">Web</span>Studio</a>
-          <ul class="mainmenu-list list">
-            <li class="mainmenu-item">
-              <a class="mainmenu-item-link link current" href="./">Студія</a>
+      <div class="header__container container">
+        <nav class="navigation header__navigation">          
+          <a class="logo link" href="./">Web<span class="header__logo">Studio</span></a>
+          <ul class="mainmenu list">
+            <li class="mainmenu__item">
+              <a class="mainmenu__link link current" href="./">Студія</a>
             </li>
-            <li class="mainmenu-item">
-              <a class="mainmenu-item-link link" href="./portfolio.html">Портфоліо</a>
+            <li class="mainmenu__item">
+              <a class="mainmenu__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="mainmenu-item">
-              <a class="mainmenu-item-link link" href="#">Контакти</a>
+            <li class="mainmenu__item">
+              <a class="mainmenu__link link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts-list list">
-          <li class="header-contacts-item">
-            <a class="header-contacts-link link" href="mailto:info@devstudio.com"
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="mailto:info@devstudio.com"
               >
-              <svg class="header-contact-icon" width="16" height="12">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-item">
-            <a class="header-contacts-link link" href="tel:+380961111111">
-              <svg class="header-contact-icon" width="10" height="16">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a>
@@ -58,60 +58,61 @@
         </ul>
       </div>
     </header>
+    <!--Main-->
     <main>
       <!--HERO-->
       <section class="hero">
         <div class="container">
-          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="modal-button" type="button" data-modal-open>Замовити послугу</button>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!--FEATURES-->
       <section class="features section">
         <div class="container">
-          <h2 class="features-title vusual-hidden">Наші переваги</h2>
-          <ul class="features-list list">
-            <li class="feature-item">
-              <div class="feauter-item-block">
-                <svg class="feauter-item-icon" width="70" height="70">
+          <h2 class="features__title vusual-hidden">Наші переваги</h2>
+          <ul class="features__list list">
+            <li class="features__item">
+              <div class="feauters__image">
+                <svg class="" width="70" height="70">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="feature-item-header">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="feature-item-description">
+              <h3 class="features__header">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features__description">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="feature-item">
-              <div class="feauter-item-block">
-                <svg class="feauter-item-icon" width="70" height="70">
+            <li class="features__item">
+              <div class="feauters__image">
+                <svg class="" width="70" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="feature-item-header">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="feature-item-description">
+              <h3 class="features__header">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features__description">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="feature-item">
-              <div class="feauter-item-block">
-                <svg class="feauter-item-icon" width="70" height="70">
+            <li class="features__item">
+              <div class="feauters__image">
+                <svg class="" width="70" height="70">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="feature-item-header">ПЛАНУВАННЯ</h3>
-              <p class="feature-item-description">
+              <h3 class="features__header">ПЛАНУВАННЯ</h3>
+              <p class="features__description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="feature-item">
-              <div class="feauter-item-block">
-                <svg class="feauter-item-icon" width="70" height="70">
+            <li class="features__item">
+              <div class="feauters__image">
+                <svg class="" width="70" height="70">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="feature-item-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="feature-item-description">
+              <h3 class="features__header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features__description">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -121,24 +122,24 @@
       <!--ABOUT US-->
       <section class="aboutus section">
         <div class="container">
-          <h2 class="aboutus-header">Чим ми займаємося</h2>
-          <ul class="aboutus-list list">
-            <li class="aboutus-item">
+          <h2 class="aboutus__header">Чим ми займаємося</h2>
+          <ul class="aboutus__list list">
+            <li class="aboutus__item">
               <div class="aboutus-wrapper">
-                <img class="aboutus-image" src="./images/img1.jpg" alt="Блок-схема поряд з клавиатурою" width="370" />
-                <p class="overlay-text-aboutus">Десктопні додатки</p>                
+                <img class="aboutus-wrapper__image" src="./images/img1.jpg" alt="Блок-схема поряд з клавиатурою" width="370" />
+                <p class="aboutus-wrapper__overlay">Десктопні додатки</p>                
               </div>                           
             </li>
-            <li class="aboutus-item">
+            <li class="aboutus__item">
               <div class="aboutus-wrapper">
-                <img class="aboutus-image" src="./images/img2.jpg" alt="Ноутбук і смартфон" width="370" />
-                <p class="overlay-text-aboutus">Мобільні додатки</p>                
+                <img class="aboutus-wrapper__image" src="./images/img2.jpg" alt="Ноутбук і смартфон" width="370" />
+                <p class="aboutus-wrapper__overlay">Мобільні додатки</p>                
               </div>                            
             </li>
-            <li class="aboutus-item">
+            <li class="aboutus__item">
               <div class="aboutus-wrapper">
-                <img class="aboutus-image" src="./images/img3.jpg" alt="Планшет" width="370" />
-                <p class="overlay-text-aboutus">Дизайнерські рішення</p>                
+                <img class="aboutus-wrapper__image" src="./images/img3.jpg" alt="Планшет" width="370" />
+                <p class="aboutus-wrapper__overlay">Дизайнерські рішення</p>                
               </div>                            
             </li>
           </ul>
@@ -482,8 +483,8 @@
     <!--Footer-->
     <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-logo-address">
-          <a class="footer-logo link" href="#"><span class="logo-blue-fragment">Web</span>Studio</a>
+        <div class="footer-logo-address">          
+          <a class="logo link" href="./">Web<span class="footer__logo">Studio</span></a>
           <address class="address-section">
             <ul class="footer-contacts list">
               <li class="footer-contacts-items">
@@ -558,6 +559,7 @@
         </div>      
       </div>
     </footer>
+    <!--Modal window-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-btn" type="button" data-modal-close>
